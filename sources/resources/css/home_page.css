@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url('../images/6048820.jpg');
+    margin: 0;
+    padding: 0;
+    font-family: Arial ,sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+header{
+    padding: 20px;
+    display: flex;
+    z-index: 99;
+}
+.rightnav{
+    display: flex;
+    align-items: center;
+}
+.rightnav a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 60px;
+}
+
+.leftnav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.leftnav{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 600px;
+    transition: .8s;
+}
+
+.leftnav>a :hover {
+    background: white;
+    color: #162938;
+}
+
+
+.main{
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 600px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+.main b {
+    padding: 30px;
+    color: white;
+}
+.learn-more {
+    background: white;
+    height: 50px;
+    width: 155px;
+    border-radius: 20px;
+}
+.learn-more b{
+    color: black;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
