@@ -2,7 +2,7 @@
 
 This project is a web application designed to recommend stocks and assist users in making informed investment decisions by providing stock price predictions.
 
-## PS
+## Problem Statement
 
 Developing a conversational recommender system for stock investment
 ps code: AB05
