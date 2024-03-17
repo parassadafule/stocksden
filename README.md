@@ -56,5 +56,5 @@ To run & tests, run the following command in terminal
 
 ## Contact Us
 
-For contact & supprt: email parassadafule21@gmail.com
+For contact & support: email parassadafule21@gmail.com bhasagisumit@gmail.com
 
