@@ -1,0 +1,88 @@
+*{
+    font-family: 'Montserrat';
+}
+html {
+    height: 100%;
+}
+body {
+    background-image: url("../images/main_back.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: Arial ,sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.logo img{
+    height:80px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 20pxrgb(242, 242, 242);
+}
+header{
+    padding: 20px;
+    display: flex;
+    z-index: 99;
+}
+.rightnav{
+    display: flex;
+    align-items: center;
+}
+.rightnav a {
+    position: relative;
+    font-size: 18px;
+    color: powderblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 60px;
+}
+
+.leftnav a {
+    font-size: 20px;
+    color: powderblue;
+    text-decoration: none;
+    font-weight: 1000;
+    margin-right: 40px;
+}
+
+.leftnav{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 400px;
+}
+
+.main{
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    color: powderblue;
+    height: 600px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    backdrop-filter: blur(2.5px);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main b {
+    padding: 30px;
+    color: powderblue;
+}
+.learn-more {
+    border: none;
+    height: 50px;
+    width: 155px;
+    border-radius: 20px;
+    background-color: powderblue;
+    cursor: pointer;
+}
+.learn-more b{
+    color: black;
+}
+h2{
+    color: powderblue;
+}
+p{
+    color: powderblue;
+}
