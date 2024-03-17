@@ -1,9 +1,3 @@
-/* h2{
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center;
-    color: white; */
-
 *:before,
 *:after{
 padding: 0;
@@ -22,9 +16,9 @@ left: 50%;
 top: 50%;
 }
 .background .shape{
-height: 200px;
+height: fit-content;
 width: 200px;
-position: absolute;
+position: relative;
 border-radius: 50%;
 }
 
@@ -32,10 +26,8 @@ form{
 height: 670px;
 width: 400px;
 background-color: rgba(255,255,255,0.13);
-position: absolute;
-transform: translate(-50%,-50%);
-top: 50%;
-left: 50%;
+position: relative;
+margin-left: 430px;
 border-radius: 10px;
 backdrop-filter: blur(10px);
 border: 2px solid rgba(255,255,255,0.1);
